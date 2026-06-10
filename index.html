@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora Julián Ochoa</title>
+    <link rel="icon" type="img/png" href="Recursos/IMG/8af2e2c3-24e4-4ecd-a4d9-1feb4b502a7b.tmpSS"> 
+    <style>
+        a
+html,body{
+    height: 100%;
+    margin: 0%;
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    background-color: #0d0081; 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+header{
+    padding: 20px;
+    background-color: #696bff; 
+    color: rgb(0, 21, 173);
+}
+
+
+h1 {
+    text-shadow: 0 0 5px #0000ff, 0 0 10px #260079;
+    margin: 0;
+}
+
+
+.semana {
+    background-color: rgb(144, 194, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 5px solid #3c00ff; 
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.semana h3 {
+    color: #000dff;
+    margin-top: 0;
+}
+
+.semana:hover {
+    transform: translateY(-5px);
+}
+
+main{
+    flex:1; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-top: 3px solid #0066ff;
+    background-color: #769dff; 
+    color: rgb(0, 47, 255);
+}
+
+
+footer img {
+    width: 80px;
+    transition: transform 0.3s ease;
+
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+@media(max-width:600px){
+footer{
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitácora de Julián Ochoa</h1>
+    </header>
+    <main>
+        <h4 style="color: #3e7eff;">Contenido de mi página web</h4>
+
+        <div class="semana">
+            <h3>Semana 1: Introducción a CSS</h3>
+            <p>Hoy aprendí a crear efectos de neón y a diseñar tarjetas elegantes para mi bitácora con colores a mi gusto.</p>
+        </div>
+<div class="semana">
+            <h3>Semana 2: Efectos y Animaciones</h3>
+            <p>El video contiene la simulación de mi proyecto realizado en thinkercard</p>
+                <video width="100%" controls style="border-radius: 8px; margin-top: 15px;">
+        <source src="c:\Users\Alumno Capouilliez\Videos\Grabaciones de pantalla\Grabación de pantalla 2026-05-13 121414.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </main>
+    <footer>
+        <span>2026 @JOchoa</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" alt="Logo Colegio">
+    </footer>
+</body>
+</html>
